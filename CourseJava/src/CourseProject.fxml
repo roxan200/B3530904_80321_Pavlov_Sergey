@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
+
+<HBox fx:id="base" blendMode="EXCLUSION" xmlns="http://javafx.com/javafx/11.0.1" xmlns:fx="http://javafx.com/fxml/1" fx:controller="CPController"
+      prefHeight="600" minHeight="400" prefWidth="750" minWidth="500">
+    <VBox fx:id="labs" HBox.hgrow="ALWAYS" maxHeight="Infinity" minWidth="200">
+    </VBox>
+    <VBox HBox.hgrow="ALWAYS" maxWidth="Infinity">
+        <TextArea fx:id="textConsoleOutput" VBox.vgrow="ALWAYS" maxHeight="Infinity" editable="false"/>
+        <TextArea fx:id="textConsoleInput" text="Input console is ready!" maxHeight="150" minHeight="100" disable="true"/>
+    </VBox>
+</HBox>

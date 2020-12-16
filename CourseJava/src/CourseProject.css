@@ -1,0 +1,24 @@
+.label {
+    -fx-font-size: 12px;
+    -fx-font-weight: bold;
+    -fx-text-fill: #333333;
+    -fx-effect: dropshadow( gaussian , rgba(255,255,255,0.5) , 0,0,0,1 );
+}
+
+#textConsoleOutput, #textConsoleInput {
+    -fx-text-fill: #333333;
+    -fx-font-size: 16px;
+    -fx-opacity: 1.0;
+}
+
+.button {
+    -fx-text-fill: #333333;
+    -fx-font-family: "Arial Narrow";
+    -fx-font-weight: bold;
+    -fx-background-color: linear-gradient(#FFFFFF, #00FFFF);
+    -fx-effect: dropshadow(three-pass-box , rgba(0,0,0,0.6) , 5, 0.0 , 0 , 1 );
+}
+
+.button:hover {
+    -fx-background-color: linear-gradient(#00FFFF, #FFFFFF);
+}
